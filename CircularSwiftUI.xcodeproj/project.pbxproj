@@ -11,6 +11,8 @@
 		2F9C200929A4F59D009113FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C200829A4F59D009113FD /* ContentView.swift */; };
 		2F9C200B29A4F59F009113FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F9C200A29A4F59F009113FD /* Assets.xcassets */; };
 		2F9C200E29A4F59F009113FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F9C200D29A4F59F009113FD /* Preview Assets.xcassets */; };
+		2F9C201529A4F64A009113FD /* CircularShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C201429A4F64A009113FD /* CircularShape.swift */; };
+		2F9C201729A4FCF6009113FD /* Circular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C201629A4FCF6009113FD /* Circular.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		2F9C200829A4F59D009113FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2F9C200A29A4F59F009113FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F9C200D29A4F59F009113FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F9C201429A4F64A009113FD /* CircularShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShape.swift; sourceTree = "<group>"; };
+		2F9C201629A4FCF6009113FD /* Circular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circular.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				2F9C200629A4F59D009113FD /* CircularSwiftUIApp.swift */,
+				2F9C201629A4FCF6009113FD /* Circular.swift */,
 				2F9C200829A4F59D009113FD /* ContentView.swift */,
+				2F9C201429A4F64A009113FD /* CircularShape.swift */,
 				2F9C200A29A4F59F009113FD /* Assets.xcassets */,
 				2F9C200C29A4F59F009113FD /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F9C201529A4F64A009113FD /* CircularShape.swift in Sources */,
 				2F9C200929A4F59D009113FD /* ContentView.swift in Sources */,
+				2F9C201729A4FCF6009113FD /* Circular.swift in Sources */,
 				2F9C200729A4F59D009113FD /* CircularSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
